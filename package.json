@@ -5,3 +5,8 @@
     "googleapis": "^131.0.0"
   }
 }
+{
+  "scripts" {
+    "start": "API_KEY_PLACEHOLDER=${API_KEY} node index.js"
+  }
+}
