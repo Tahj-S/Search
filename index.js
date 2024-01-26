@@ -15,7 +15,7 @@ app.get('/search', async (req, res) => {
   const result = await customsearch.cse.list({
     cx: process.env.CSE_ID,
     q: query,
-    auth: process.env.API_KEY,
+    auth: process.env.API_KEY_PLACEHOLDER,
   });
   res.json(result.data);
 });
@@ -23,3 +23,4 @@ app.get('/search', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
+
