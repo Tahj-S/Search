@@ -3,10 +3,8 @@
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "googleapis": "^131.0.0"
-  }
-}
-{
-  "scripts" {
+  },
+  "scripts": {
     "start": "API_KEY_PLACEHOLDER=${API_KEY} node index.js"
   }
 }
